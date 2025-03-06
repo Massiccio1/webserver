@@ -1,0 +1,9 @@
+name: services
+services:
+    php:
+        container_name: php
+        volumes:
+            - C:\dati\app\php:/var/www/html
+        ports:
+            - 8000:80
+        image: php:8.1.31-apache
