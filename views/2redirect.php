@@ -1,11 +1,14 @@
 <?php
 // Define the dictionary of site names and URLs
 $sites = [
-    'Google' => 'https://www.google.com',
-    'Facebook' => 'https://www.facebook.com',
-    'Twitter' => 'https://www.twitter.com',
-    'GitHub' => 'https://www.github.com',
-    'Stack Overflow' => 'https://stackoverflow.com'
+    'portainer' => 'http://localhost:8001',
+    'redis' => 'http://localhost:8011',
+    'phpmyadmin' => 'http://localhost:8012',
+    'qbitorrent' => 'http://localhost:8021'
+    // 'Facebook' => 'https://www.facebook.com',
+    // 'Twitter' => 'https://www.twitter.com',
+    // 'GitHub' => 'https://www.github.com',
+    // 'Stack Overflow' => 'https://stackoverflow.com'
 ];
 ?>
 
